@@ -1,5 +1,27 @@
 {
   "说明": "本地合成演练资料",
-  "业务对象": "门店业务日分区迁移与双布局读取",
-  "记录": []
+  "业务对象": "语音片段多租户分区与按需重写",
+  "记录": [
+    {
+      "tenant": "T1",
+      "session": "V-7",
+      "segment": "a",
+      "recorded_at": "2026-10-13T23:58:00Z",
+      "retention": "r1"
+    },
+    {
+      "tenant": "T1",
+      "session": "V-7",
+      "segment": "b",
+      "recorded_at": "2026-10-14T00:03:00Z",
+      "retention": "r1"
+    },
+    {
+      "tenant": "T2",
+      "session": "V-8",
+      "segment": "a",
+      "recorded_at": "2026-10-14T01:00:00Z",
+      "retention": "r2"
+    }
+  ]
 }
